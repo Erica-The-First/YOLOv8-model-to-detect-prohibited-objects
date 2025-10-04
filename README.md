@@ -249,4 +249,4 @@ result:
 
 ---
 Keep in mind that these results aren't always smooth, and may cause an unexpected result
-	If this do happen, it is recommended to look more deeper into the model or the in any step of the process needed to be modified.
+	If this do happen, it is recommended to look more deeper into the model or the in any step of the process needed to be modified.# YOLOv8-model-to-detect-prohibited-objects
