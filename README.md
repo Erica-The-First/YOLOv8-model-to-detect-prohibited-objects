@@ -126,32 +126,32 @@ Make sure the Runtime: (at the top left side of the screen)
 #### 2. Training in Google Colab
 ##### 1. Verify NVIDIA GPU Availability
 Run the block of code, as shown below:
-![[Screenshot 2025-09-29 at 16.37.54.png]]
+![alt text](pngs/Screenshot 2025-09-29 at 16.37.54.png)
 ##### 2. Upload Image Dataset and Prepare Training Data
 1. Use the exported file that consists of labeled images before, then rename it to "data"
 	- ex: "project1.zip" to "data.zip"
 2. and then upload it to the file side
 	You can choose to drag the file into the red box or upload it manually 
-	![[Screenshot 2025-09-29 at 16.31.26.png]]
+	![alt text](pngs/Screenshot 2025-09-29 at 16.31.26.png)
 ##### 3. Unzip the file
 To unzip the file, run the code below (by clicking the play button):
-![[Screenshot 2025-09-29 at 16.45.09.png]]
+![alt text](pngs/Screenshot 2025-09-29 at 16.45.09.png)
 
 ##### 4. Create the required folder structure
 To create the required folder structure, click the play button:
-![[Screenshot 2025-09-29 at 16.50.04.png]]
+![alt text](pngs/Screenshot 2025-09-29 at 16.50.04.png)
 
 ##### 5. Install Ultralytics
 Click the play button:
-![[Screenshot 2025-09-29 at 17.16.12.png]]
+![alt text](pngs/Screenshot 2025-09-29 at 17.16.12.png)
 
 ##### 6. Configuration
 make a config file, click the play button:
-![[Screenshot 2025-09-29 at 17.24.27.png]]
+![alt text](pngs/Screenshot 2025-09-29 at 17.24.27.png)
 
 ##### 7. Run Training
 Make modification from the part selected below:
-![[Screenshot 2025-09-29 at 17.30.23.png]]
+![alt text](pngs/Screenshot 2025-09-29 at 17.30.23.png)
 
 From "yolo11s" to "yolov8s",
 ```text
@@ -159,30 +159,30 @@ yolov8s
 ```
 
 After modifying, run it:
-![[Screenshot 2025-09-29 at 17.37.03.png]]
+![alt text](pngs/Screenshot 2025-09-29 at 17.37.03.png)
 
 ##### 8. Text Model
 to arrange the file needed for testing:
-![[Screenshot 2025-09-29 at 19.43.24.png]]
+![alt text](pngs/Screenshot 2025-09-29 at 19.43.24.png)
 
 to test:
-![[Screenshot 2025-09-29 at 20.04.30.png]]
+![alt text](pngs/Screenshot 2025-09-29 at 20.04.30.png)
 
 ##### 9. Download YOLO Model
 to download the model, you can pick any of the button below
-![[Screenshot 2025-09-29 at 20.13.24.png]]
+![alt text](pngs/Screenshot 2025-09-29 at 20.13.24.png)
 Do be mindful that the first one will make "my_model.zip" file then need to be downloaded manually and not automatically 
 
 You'll see this in the folder section
-![[Screenshot 2025-09-29 at 20.24.35.png]]
+![alt text](pngs/Screenshot 2025-09-29 at 20.24.35.png)
 
-![[Screenshot 2025-09-29 at 20.24.38.png]]
+![alt text](pngs/Screenshot 2025-09-29 at 20.24.38.png)
 
 #### 3. Export All Files and Folders from Google Colab to a Zip File
 If you would like to download all the files related to this, 
 
 make a new block of code in the Google coleb:
-![[Screenshot 2025-09-30 at 13.08.39.png]]
+![alt text](pngs/Screenshot 2025-09-30 at 13.08.39.png)
 
 Paste the code below to the block:
 
@@ -191,10 +191,10 @@ Paste the code below to the block:
 ```
 
 As shown below, then play the button:
-![[Screenshot 2025-09-30 at 14.03.21.png]]
+![alt text](pngs/Screenshot 2025-09-30 at 14.03.21.png)
 
 After you finish running it, the "all_files.zip" file will appear in the file section, as shown in the image below:
-![[Screenshot 2025-09-29 at 16.31.26.png]]
+![alt text](pngs/Screenshot 2025-09-29 at 16.31.26.png)
 
 and then download the "all_files.zip" file.
 
@@ -244,7 +244,7 @@ python yolo_detect.py --model my_model.pt --source usb0 --resolution 1280x720
 ```
 
 result:
-![[Screenshot 2025-09-26 at 01.48.21_ccopy 2.png]]
+![alt text](pngs/Screenshot 2025-09-26 at 01.48.21_ccopy 2.png)
 
 
 ---
